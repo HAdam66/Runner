@@ -1,0 +1,305 @@
+.Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.HeroImg {
+    width: 100%;
+    height: 400px;
+
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url("newheroimg.jpg");
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.3);
+
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.HeroImg h1 {
+    color: #f4f4f4;
+    position: absolute;
+    top: 10%;
+    font-size: 3em;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.05em;
+}
+
+.TextBackground1 {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: 	rgb(211,211,211,0.125);
+    border: none;
+    position: absolute;
+    top: 12%;
+
+}
+
+.TextBackground2 {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: 	rgb(211,211,211,0.125);
+    border: none;
+    position: absolute;
+    top: 41%
+
+}
+
+.TextBackground p {
+    opacity: 1;
+    color: black;
+    
+}
+.HeroImg p {
+    font-weight: 400;
+    font-size: 15px;
+    position: relative;
+    /* top: 35%; */
+    color: #f4f4f4;
+}
+
+.HeroImg .MainSlogen {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 1.25;
+}
+
+p {
+    line-height: 1.5;
+}
+
+
+.StartButton {
+    border: none;
+    border-radius: 5px;
+    width: auto;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    top: 65%;
+    display: inline-block;
+    font-size: 1.25em;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #00c2ce;
+    color: #f4f4f4;
+    padding: 0.75em 2em;
+    box-shadow: 0px 0px 19px -8px rgba(0,0,0,0.5);
+}
+
+.AboutUs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* padding: 1.5em; */
+    text-align: left;
+}
+
+.ParagraphDivs {
+    padding: 1em;
+    margin: 15px 0;
+    width: 100%;
+
+}
+
+.KeySentence {
+    text-align: center;
+}
+
+
+.ButtonDiv {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Start2Button {
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    font-size: 1.25em;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #00c2ce;
+    color: #f4f4f4;
+    padding: 0.75em 2em;
+    width: 80%;
+    margin: 15px;
+    box-shadow: 0px 0px 19px -8px rgba(0,0,0,0.5);
+
+}
+
+.BackgroundImg {
+    background-image: url("homepageimg2.jpg");
+    width: 100%;
+    height: 400px;
+
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.Container h2 {
+    margin: 0px;
+    align-self: flex-start;
+    padding: 0.5em;
+    font-size: 1.5em;
+    width: 100%;
+    transition: background-color 0.3s, color 0.3s;
+    text-align: center;
+}
+
+
+.ArrowDown {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+/* hasznos info section */
+
+
+/* custumer review section  */
+.ParagraphDivs span {
+    font-style: italic;
+}
+
+.ParagraphDivs ul li {
+    margin-bottom: 15px;
+}
+
+.ParagraphDivs a {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+/* .ParagraphDivs ul li:nth-child(2), ul li:nth-child(4) {
+    color: #00c2ce
+} */
+
+
+/* Contact us section  */
+.BackgroundImg2 {
+    background-image: url("aboutus.jpg");
+    width: 100%;
+    height: 400px;
+
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+}
+
+
+.ContactUsBlurr {
+    height: 180px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: 	rgb(211,211,211,0.15);
+    border: none;
+    position: absolute;
+    top: 20%
+}
+.BackgroundImg2 p {
+    
+    font-size: 1.5em;
+    font-weight: 500;
+    text-decoration: underline #00c2ce;
+    text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+    .Container {
+        /* padding: 0 15em; */
+        width: 100%;
+        
+    }
+
+    .HeroImg {
+        gap: 25px;
+        width: 100%;
+    }
+    .HeroImg .SecondSlogen {
+        font-size: 1.25em;
+
+        
+    }
+
+    .Content {
+        width: 80%
+    }
+
+    .Container h2 {
+        font-size: 1.75em;
+        margin: 20px 0 0 0px;
+    }
+
+    .Start2Button {
+        padding: 1em 6em;
+        width: fit-content;
+    }
+
+    .HeroImg {
+        height: 780px;
+
+    }
+    
+    .HeroImg .MainSlogen {
+        font-size: 4em;
+        line-height: 1.2;
+        text-shadow: 0.5px 0.5px #00c2ce;
+        font-weight: 700;
+    }
+
+    .HeroImg .SecondSlogen {
+        font-size: 2em;
+        text-shadow:  0.5px 0.5px #00c2ce;
+    }
+
+    .RnnR {
+        color: #00c2ce;
+        font-size: 1.75em;
+        text-shadow: 1px 1px #f4f4f4
+    }
+
+    .StartButton {
+        font-size: 2em;
+    }
+}
+

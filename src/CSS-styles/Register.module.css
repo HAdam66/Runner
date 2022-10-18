@@ -1,0 +1,62 @@
+@media screen and (max-width: 768px){
+
+    /* .RegisterMain {
+       
+    } */
+    
+    .Form {
+        background-image: url("RegisterPicMobile.jpg");
+        background-size: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 750px;
+    }
+    
+    .RegisterContainer {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+     
+    .RegisterBox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 3em;
+    }
+}
+
+/* Dektop nézet */
+
+@media screen and (min-width: 1024px) {
+
+    /* .RegisterMain {
+       
+    } */
+    
+    .Form {
+        background-image: url("RegisterPic.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 750px;
+    }
+    
+    .RegisterContainer {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .RegisterBox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 3em;
+    }
+}

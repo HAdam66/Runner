@@ -1,0 +1,147 @@
+.Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.InputBox {
+    display: flex;
+    background-image: url("TrackingBackground2.jpg");
+    height: 500px;
+    background-position: center center;
+    background-size: cover;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+}
+
+.InputBox input {
+    height: 50px;
+    margin-bottom: 0;
+    border-radius: 10px;
+    padding-left: 10px;
+    background-color: #ddd;
+    position: absolute;
+    top: 28%;
+}
+
+.InputBox>input:focus {
+    background-color: white;
+    outline: none;
+}
+
+.InputBox button {
+    position: absolute;
+    top: 38%;
+}
+
+.BackButton {
+    margin-bottom: 15px;
+    display: block;
+       margin: 30px auto
+    
+}
+
+.MapDiv {
+    width: 100%;
+}
+.MapContainer {
+    margin: 15px;
+    width: 80%
+}
+
+.VisibleH1 {
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+
+.H2Short {
+    display: block;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.MapContainer {
+    width: 100%;
+}
+@media screen and (min-width: 1024px) {
+    .Container {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        height: 600px;
+    }
+
+    .H1 {
+        display: inline;
+        text-decoration: center;
+        position: absolute;
+        top:0;
+    }
+
+    /* .TwoBoxes{
+        display: flex;
+        flex-direction: row-reverse;
+        background-color: blueviolet;
+        width: 90%
+    } */
+
+    .InputBox {
+        display: flex;
+        background-image: url("TrackingBackground2.jpg");
+        background-position: center center;
+        background-size: cover;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        width: 400px;
+        height: 600px;
+        border-radius: 5px;
+    }
+
+    .LeftBackground {
+        background-image: url("../CSS-styles/deliveryman-32ratio.jpg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        display: flex;
+        border-radius: 5px;
+        position: relative;
+        text-align: center;
+        justify-content: center;
+        width: 400px;
+        height: 600px;
+    }
+
+    .MapContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        height: 100vh;
+        padding: 2em;
+        gap: 30px;
+    }
+  
+
+    .MapDiv {
+        width: 70%;
+    }
+    .VisibleH1 {
+        display: block;
+    }
+
+    .BackButton {
+       text-align: center;
+       display: block;
+       margin: 30px auto
+        
+    }
+}

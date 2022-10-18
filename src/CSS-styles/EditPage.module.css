@@ -1,0 +1,131 @@
+.EditMainContainer {
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    width: 100%;
+}
+
+.EditBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5em;
+    margin-top: 2em;
+    background-color: white;
+    border-radius: 5px;
+    width: 100%;
+    box-shadow: 0px 0px 19px -8px rgba(0, 0, 0, 0.5);
+}
+
+.EditInput {
+    width: 100%;
+}
+
+.EditBox input {
+    margin-bottom: 0.8em;
+    width: 100%;
+    border-radius: 0.3em;
+    font-size: 1.2em;
+    padding: 0.3em;
+    margin-bottom: 1.5em;
+    border: 0.05em solid black;
+}
+
+.EditBox p {
+    display: inline;
+    align-self: flex-start;
+    color: #000000;
+    font-weight: 500;
+}
+
+.EditContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.EditLogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.EditLogo h1 {
+    margin: 0;
+}
+
+
+.EditButton {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 1024px) {
+.EditMainContainer {
+    background-image: url("../CSS-styles/aboutus.jpg");
+    background-size: 100% 100%;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+}
+
+.EditBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 900px;
+    height: 300px;
+    padding: 0.5em;
+    margin: 30px;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.EditContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.EditInput {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    align-items: center;
+}
+
+.EditLogo {
+    font-size: 80px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    border-radius: 5px;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.EditLogo h1 {
+    display: inline;
+    color: #f4f4f4;
+    margin: 0;
+    font-size: 0.5em;
+}
+
+
+.EditButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+}

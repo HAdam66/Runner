@@ -1,0 +1,55 @@
+.InfoWindow {
+    width: min-content;
+    height: min-content;
+    background-color: #00c2ce;
+    color: white;
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 5px;
+    
+    
+}
+.SmallInfoWindow {
+    width: min-content;
+    height: min-content;
+    background-color: #00c2ce;
+    color: white;
+    padding: 5px;
+    overflow: hidden;
+    border-radius: 5px;
+    
+    
+}
+
+.SmallInfoWindow h3 {
+    font-size: 1em;
+    font-weight: normal;
+    
+}
+
+.SmallInfoWindow a {
+    color: white;
+    text-align: center;
+    font-weight: 800;
+}
+.InfoWindow h3 {
+    font-size: 1.25em;
+
+}
+
+.InfoWindow span {
+    font-weight: 400;
+}
+
+.InfoWindow h5 {
+    font-size: 1.25em;
+}
+
+.InfoWindow a {
+    font-size: 1.5em;
+    display: block;
+    color: white;
+    text-align: center;
+    font-weight: 800;
+    padding-top: 10px;
+}

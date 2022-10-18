@@ -1,0 +1,1 @@
+export const actualDatabaseURL = "https://rnnr-d9bce-default-rtdb.europe-west1.firebasedatabase.app/"

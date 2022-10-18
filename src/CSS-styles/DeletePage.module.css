@@ -1,0 +1,111 @@
+.MainDelete {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 300px
+}
+
+.DeleteContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.DeleteBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    text-align: center;
+}
+
+.DeleteImg {
+    background-image: url("trash-transparent-hd-png.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    width: 100%;
+    height: 300px;
+}
+
+.DeleteBox h1 {
+    width: 100%;
+    margin: 0;
+}
+
+.DeleteButtons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50%;
+    border-radius: 5px;
+    font-size: 1.25em;
+    font-weight: bold;
+    cursor: pointer;
+    color: #f4f4f4;
+}
+
+@media screen and (min-width: 1024px) {
+    .MainDelete {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url("aboutus.jpg");
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: 120%;
+        width: 100%;
+        height: 800px;
+    }
+
+    .DeleteContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        width: 800px;
+        background-color: #f4f4f4;
+        border-radius: 5px;
+        position: relative;
+    }
+    
+    .DeleteBox {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        text-align: center;
+        padding: 20px;
+
+    }
+    
+    .DeleteImg {
+        background-image: url("trash-transparent-hd-png.png");
+        background-repeat: no-repeat;
+        background-position: 50%;
+        background-size: 20%;
+        width: 100%;
+        height: 200px;
+        position: relative;
+        right: 150px;
+    }
+    
+    .DeleteBox h1 {
+        width: 100%;
+        margin: 0;
+        display: none;
+    }
+
+    .DeleteButtons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        right: 170px;
+        bottom: 90px;
+    }
+    .DeleteButtons button {
+        margin-left: 0;
+    }
+}

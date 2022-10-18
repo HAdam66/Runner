@@ -1,0 +1,214 @@
+.Form {
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.InputContainer {
+    background-color: white;
+    padding: 0.5em;
+    border-radius: 5px;
+    width: 90%;
+    box-shadow: 0px 0px 19px -8px rgba(0, 0, 0, 0.5);
+}
+
+.InputContainer input {
+    margin-bottom: 0.8em;
+    width: 100%;
+    border-radius: 0.3em;
+    font-size: 1.2em;
+    padding: 0.3em;
+    margin-bottom: 1.5em;
+    border: 0.05em solid black;
+}
+
+h1 {
+    margin-top: 0.5em;
+    color: #000000;
+    font-size: 2.25em;
+}
+
+.InputContainer p {
+    display: inline;
+    align-self: flex-start;
+    color: #000000;
+    font-weight: 500;
+}
+
+/* A loginnál a 2 regisztációs link */
+
+.RegLinks {
+    margin-top: 1em;
+}
+
+.RegLinks h5 {
+    color: #00c2ce;
+    font-weight: 400;
+    padding: 0.3em;
+    text-align: center;
+}
+
+.ButtonCenter {
+    width: 100%;
+    text-align: center;
+}
+
+.ImageInfo {
+    display: none;
+}
+
+.WeightSpan {
+    position: relative;
+    left: 270px;
+    top: -60px;
+    font-size: 1.2em;
+}
+
+
+/* validáció */
+.DisabledBtn {
+    background-color: lightgray;
+}
+
+.EmailError::placeholder {
+    color: red;
+    
+}
+
+.PasswordError::placeholder {
+    color: red;
+    
+}
+
+
+
+
+@media screen and (min-width: 1024px) {
+    .Form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .InputContainer {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 900px;
+        height: 600px;
+        border: none;
+        background-color: transparent;
+        padding: 0.5em;
+        border-radius: none;
+        margin-bottom: 0;
+        box-shadow: none;
+    }
+
+    .ImageInfo {
+        background-image: url("../CSS-styles/user-reg-blur.jpg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        display: flex;
+        width: 49%;
+        border-radius: 5px;
+        position: relative;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .InputBox {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        max-width: 1200px;
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 50%;
+    }
+
+    input {
+        margin-bottom: 15px;
+    }
+
+    .ImageInfo h1 {
+        color: #f4f4f4;
+        top: 320px;
+        font-size: 80px;
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 100%;
+        display: block;
+        position: absolute;
+    }
+
+    .InputContainer input {
+        width: 90%;
+        border-radius: 0.3em;
+        font-size: 1em;
+        padding: 0.3em;
+        margin-bottom: 1em;
+        border: 0.05em solid black;
+    }
+
+    h1 {
+        display: none;
+        margin-top: 0.2em;
+        color: #000000;
+        font-size: 2.25em;
+    }
+
+    .InputContainer p {
+        display: inline;
+        align-self: center;
+        width: 90%;
+        color: #000000;
+        font-weight: 300;
+    }
+
+    .Login {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .Login input {
+        position: relative;
+        bottom: 13px;
+    }
+
+    .BackButton {
+        display: none;
+    }
+
+    .SaRunnerEditBackground {
+        background-image: url("../CSS-styles/deliveryman-32ratio.jpg");
+    }
+
+    .UserProfileEditBackground {
+        background-image: url("../CSS-styles/user-32ratio.jpg");
+    }
+
+    .WeightSpan {
+        position: relative;
+        left: 90px;
+        top: -60px;
+        font-size: 1.2em;
+    }
+
+}
+
+.Card{
+    width: 450px;
+}
+
+.RunnerQuestion {
+    display: none;
+
+}

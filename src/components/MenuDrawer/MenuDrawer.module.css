@@ -1,0 +1,24 @@
+.container {
+  background: black;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  position: fixed;
+  top: 60px;
+  right: 0;
+  width: 0;
+  z-index: 1;
+  transform: translateX(100%);
+  transition: all 0.3s ease-in-out;
+  padding: 22px;
+  overflow-y: scroll;
+  opacity: 0.93;
+}
+
+.open {
+  transform: translateX(0);
+  width: 100%;
+}
+.navIsShrunk {
+  top: navbar-shrunk-height;
+}

@@ -1,0 +1,184 @@
+.BiggestContainer {
+    width: 100%;
+    padding: 2em;
+    border-radius: 5px;
+}
+
+
+.FlexContainer {
+    display: grid;
+  gap: 20px;
+  height: 100vh;
+  width: 100%;
+
+}
+
+.HeaderAndBody {
+    display: flex;
+    flex-direction: column;
+    width: 100%
+}
+
+.SectionsAndInfo {
+    width: 100%;
+    display: flex;
+    
+}
+
+.PackInfos{
+    width: 100%; 
+    background-color: white;
+}
+.PacksForUser, .SentPacks, .Info, .HeaderSection {
+    background-color: #f4f4f4
+}
+
+.PacksForUser {
+    
+}
+
+.SentPacks {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   background-color: white;
+   
+}
+
+.H2nLink {
+    display: flex;
+    flex-direction: row; 
+    justify-content: flex-start;
+    gap: 150px;
+    align-items: center;
+ margin-bottom: 15px;
+ padding: 20px;
+ background-color: white;
+}
+
+
+.LiDiv {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    /* border-radius: 5px; */
+    margin-bottom: 10px;
+    background-color: white;
+    border-bottom: 3px solid #00c2ce;
+   
+}
+
+
+/* táblázat */
+
+.SentPUl {
+    display: flex;
+    width: 100%;
+    background-color: white;
+    border: none;
+    flex-direction: row;
+    margin-bottom: 10px;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.SentPUl:nth-child(2), .SentPUl:nth-child(4) {
+    background-color: #00c2ce
+}
+
+.SentPUl:last-child {
+    margin-bottom: 25px;
+}
+
+.SentPUl li {
+    padding: 10px;
+    width: 170px;
+    text-align: center;
+}
+.SentPUl li:first-child {
+    width: 240px;
+    text-align: center;
+}
+.Bold li {
+    font-weight: 700;
+    width: 170px;
+    text-align: center;
+    font-size: 1.25em;
+}
+
+.Bold li:first-child {
+    width: 220px;
+    text-align: center;
+}
+.Info {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-left: 1px solid #00c2ce;
+}
+
+
+.Usefull, .Contact {
+    padding: 15px;
+    margin: 40px 0;
+}
+
+.Usefull li, .Contact li {
+  
+        font-size: 1.1em;
+    
+}
+.Usefull {
+    margin-top: 10px;
+}
+.Usefull h2, .Contact h2 {
+    text-align: center;
+    margin: 10px 0;
+}
+.HeaderSection {
+   padding: 10px;
+   background-color: #00c2ce;
+   color: white
+}
+
+.Hello {
+    display: block;
+    text-align: left;
+    margin: 10px 0;
+    padding: 0;
+    color: white
+}
+
+.BlackLink {
+   
+    color: #00c2ce;
+    font-size: 1.1em;
+}
+
+.BlackLink:visited {
+    color: #00c2ce;
+    font-size: 1.1em;
+}
+
+
+
+.SideImg {
+    width: 100%;
+    height: 300px;
+    padding: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-image: url("https://images.unsplash.com/photo-1520038410233-7141be7e6f97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y2FyZGJvYXJkJTIwYm94fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+}
+
+@media screen and (max-width: 1024px) {
+
+    .BiggestContainer{
+        padding: 0;
+    }
+
+}

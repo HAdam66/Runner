@@ -1,0 +1,38 @@
+.QrContainer {
+    width: 100%;
+    
+}
+.QrH1 {
+    display: block;
+}
+.QrDiv {
+    width: 100%;
+    text-align: center
+}
+
+.QrButton {
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+.Button {
+    display: block;
+    text-align: center;
+    margin: auto;
+
+}
+
+.ProfileBtn {
+    margin: 25px;
+}
+@media screen and (min-width: 1024px) {
+.QrH1 {
+    display: block;
+}
+
+.QrCode {
+    width: 500px;
+    height: 500px;
+}
+}
