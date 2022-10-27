@@ -36,8 +36,6 @@ export function packageReg(packageToRegister, userName) {
             console.log("lat:" + data.results[0].geometry.location.lat());
             console.log("lng: " + data.results[0].geometry.location.lng());
 
-            // ide jön a fetch firebase-be és akkor el tudjátok menteni a koordinátákat
-
             let senderCoordinates = {
                 lat: data.results[0].geometry.location.lat(),
                 lng: data.results[0].geometry.location.lng()
@@ -46,9 +44,7 @@ export function packageReg(packageToRegister, userName) {
             return geocoding(packageToRegister.receiverAddress)
                 .then((data) => {
                     console.log("lat:" + data.results[0].geometry.location.lat());
-                    console.log("lng: " + data.results[0].geometry.location.lng());
-
-                    // ide jön a fetch firebase-be és akkor el tudjátok menteni a koordinátákat
+                    console.log("lng: " + data.results[0].geometry.location.lng()); 
 
                     let receiverCoordinates = {
                         lat: data.results[0].geometry.location.lat(),
@@ -115,8 +111,6 @@ export function packageEdit(modifiedPackage, packageId) {
             console.log("lat:" + data.results[0].geometry.location.lat());
             console.log("lng: " + data.results[0].geometry.location.lng());
 
-            // ide jön a fetch firebase-be és akkor el tudjátok menteni a koordinátákat
-
             let senderCoordinates = {
                 lat: data.results[0].geometry.location.lat(),
                 lng: data.results[0].geometry.location.lng()
@@ -126,8 +120,6 @@ export function packageEdit(modifiedPackage, packageId) {
                 .then((data) => {
                     console.log("lat:" + data.results[0].geometry.location.lat());
                     console.log("lng: " + data.results[0].geometry.location.lng());
-
-                    // ide jön a fetch firebase-be és akkor el tudjátok menteni a koordinátákat
 
                     let receiverCoordinates = {
                         lat: data.results[0].geometry.location.lat(),

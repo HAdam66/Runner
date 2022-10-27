@@ -108,35 +108,6 @@
     border-right: lightgray solid 25px;
 }
 
-
-
-
-
-/* animacio egyenlre nem */
-/* .LeftToRight {
-   
-    animation-name: leftToRight;
-    animation-duration: 0.5s;
-    position: relative;
-}
-
-@keyframes leftToRight {
-    0%   {right: 100%}
-    
-    100% {right: 0}
-}
-
-.RightToLeft {
-    animation-name: rightToLeft; 
-    animation-duration: 0.5s;
-    position: relative;
-}
-
-@keyframes rightToLeft {
-    0%   {right: 0}
-    
-    100% {right: 100%}
-} */
 @media screen and (min-width: 1024px) {
     .Container {
         margin-bottom: 60px;

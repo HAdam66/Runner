@@ -1,7 +1,5 @@
 /* Mobil nézet */
 
-/* A listákat is ezzel formázzuk */
-
 .Container {
     display: flex;
     flex-direction: column;
@@ -104,13 +102,6 @@
     width: 90%;
 }
 
-/* .UlItems :hover, .UlItems :active {
-    font-size: 1.3em;
-    transition: background-color 0.4s, color 0.4s;
-    background-color:  #00c2ce;
-    color: #f4f4f4
-} */
-
 .UlItems :hover a {
     color: #f4f4f4;
 }
@@ -141,7 +132,6 @@
     padding-bottom: 25px;
 }
 
-/* gomb átméretezése a runnerdashboard miatt, csak finomitas */
 
 .SmallerButton {
     padding-top: 0.2em;
@@ -154,12 +144,6 @@
     align-items: center;
     transition:  background-color 0.5s, color 0.5s;
 }
-
-/* .SmallerButton button :hover, .SmallerButton button :active {
-    border: 2px solid white;
-    transition: background-color 0.4s, color 0.4s;
-
-} */
 
 .TwoSmallerButton {
     

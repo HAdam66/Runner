@@ -44,7 +44,3 @@ export function objectToArray(o){
     Object.keys(o).forEach(k => tomb.push(o[k]));
     return tomb
   }
-// objectben eltároljuk, h milyen útvonalra milyen jogosultság kell. kulcs útvonal, hozzárendelve egy tömb, ami tartalmazza a megszorítást. ha a tömb üres, mindenki eléri, ha nem üres, akkor csak a benne szerepllők érik else.
-// authguargdan  - amikor nézzük, h be van-e lépve vagy setTimeout, azt is megnézzük, hogy a user a roleja alapján a megtekinteni szándékozott oldalhoz van-e hozzáférése.
-// A route alapján tudjuk, hogy melyik kulcsot kell nézni a permissionsben, a usercontext alapján, hogy mit kell keresni.
-

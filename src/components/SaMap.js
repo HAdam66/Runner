@@ -27,15 +27,6 @@ function SaMap() {
   
 
     React.useEffect(() => {
-        
-        // listPackages()
-        //     .then(data => {
-        //         let packageArray = []
-        //         data.map(currentPackages => {
-        //             packageArray.push(currentPackages)
-        //         })
-        //         setUserPackages(packageArray)
-        //     })
         let db = getDatabase(app)
     let pathRef = ref(db, "Csomagok")
     let packagesArray = [];

@@ -34,14 +34,6 @@ const [runnerList, setRunnerList] = React.useState([]);
                             <li> <span>E-mail: </span><br></br> {runner.email}</li>
                             <li> <span>Jelszó: </span><br></br> {runner.password}</li>
 
-                            {/* <h3>ID: {runner.userName}</h3>
-                            <li>Név: {runner.name}</li>
-                            <li>Felhasználónév: {runner.userName}</li>
-                            <li>Cím: {runner.address}</li>
-                            <li>Telefonszám: {runner.phoneNumber}</li>
-                            <li>E-mail: {runner.email}</li>
-                            <li>Jelszó: {runner.password}</li> */}
-
                             <Link to={`/SaFutarSzerkesztes/${runner.userName}`}>Futár szerkesztése</Link>
                             <Link to={`/SaFutarTorles/${runner.userName}`}>Futár törlése</Link>
                         </div>

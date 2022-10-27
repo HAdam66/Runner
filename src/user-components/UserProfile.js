@@ -17,9 +17,7 @@ function UserProfile() {
     const [password, setPassword] = React.useState("");
     const [packages, setPackages] = React.useState("")
     const [uid, setUid] = React.useState("");
-    //ki kell menteni a packaget és a uid is h atadjuk vagy különben elveszik a putnal
     console.log(params)
-    // azért useeffectbe h rögtön updatelodjön a data 
 
     React.useEffect(() => {
         userEditDataDisplay(params)

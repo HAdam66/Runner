@@ -64,10 +64,7 @@ export default function RunnerPackageListing() {
                                                 alert("Túl messze vagy " + distance + " méter távolságra");
                                             }
                                         })
-                                    // packageShipped(currentPackage, loginContext.userData.userName)
-                                    // .then(() => {setPackages(arrayUpdate(packages, currentPackage))
-                                    //             console.log("distance figyelés jelenleg kicommentelve");
-                                    // })
+                                    
                                 }}>Leadás QR kód nélkül</button>
                                 <ToastContainer
                                     position="bottom-center"

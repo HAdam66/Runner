@@ -85,13 +85,6 @@
         top:0;
     }
 
-    /* .TwoBoxes{
-        display: flex;
-        flex-direction: row-reverse;
-        background-color: blueviolet;
-        width: 90%
-    } */
-
     .InputBox {
         display: flex;
         background-image: url("TrackingBackground2.jpg");

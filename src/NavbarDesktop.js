@@ -19,8 +19,6 @@ function NavbarDesktop() {
                             <Link to="/">Home</Link>
                             <Link to="Bejelentkezes">Bejelentkezés</Link>
                             <Link to="Regisztracio">Regisztráció</Link>
-                            {/* <Link to="FelhasznaloRegisztracio">Regisztráció felhasználóként</Link>
-                            <Link to="FutarRegisztracio">Regisztrálás futárként</Link> */}
                             <Link to="CsomagKovetes">Csomag nyomonkövetés</Link>
                         </span>}
 

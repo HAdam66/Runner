@@ -47,6 +47,4 @@ export default function AuthGuard(props) {
     }
 }
 
-// ide kell a user contextből kiolvasni a user role-ját, valamint a route routerrel le tudjuk kérni az aktuális útvonalat.
-// Az aktuális útvonalat használjuk, hogy  apermissionsből kiolvassuk a hozzáférési opciót.
 

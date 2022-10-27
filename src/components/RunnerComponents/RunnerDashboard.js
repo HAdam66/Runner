@@ -95,14 +95,7 @@ function RunnerDashboard() {
                               alert("Túl messze vagy " + distance + " méter távolságra");
                             }
                           })
-                        // console.log(currentPackage)
-                        // packageShipped(currentPackage, loginContext.userData.userName)
-                        // .then(() => {
-                        //   console.log("nincs benne distance figyelés, csak leadja")
-                        //   console.log("realtime array updata ujabb fetch nélkül a tömb módosítással, leadásnál megy")
-                        //   setPackagesUnderDelivery(arrayUpdate(packagesUnderDelivery, currentPackage))
-                        //   setNumOfPackUnderDelivery(numOfPackUnderDelivery - 1)
-                        // })
+                        
                       }}>Leadás QR kód nélkül</button>
 
 
